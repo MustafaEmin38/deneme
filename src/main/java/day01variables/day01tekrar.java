@@ -92,6 +92,7 @@ public class day01tekrar {
 
 
         //merhaba
+        //ilk değişiklik yaptım
 
     }
 
