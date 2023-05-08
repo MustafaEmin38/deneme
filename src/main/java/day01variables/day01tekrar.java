@@ -94,6 +94,8 @@ public class day01tekrar {
         //merhaba
         //ilk değişiklik yaptım
         //bunlar da 2. değşişikliklerim
+        
+        //bunlar da internette yaptıklarım
 
     }
 
