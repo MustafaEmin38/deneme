@@ -1,6 +1,6 @@
 package day02datatypesmethodcreation;
 
-public class day02Variables01MyTekrar {
+public class MyTekrar_day02Variables01 {
     public static void main(String[] args) {
 
         //Örnek 1: Şehir ismi için bir variable oluşturun ve önce "Ankara" sonra da "Izmir" sonra "Trabzon" değerlerini atayıp ekrana yazdırın.

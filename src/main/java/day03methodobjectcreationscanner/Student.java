@@ -8,11 +8,10 @@ public class Student {
 
     //method ==> aktif özellik
     public void study (){
-
         System.out.println("Gunluk tekrarlarini asla ihmal etmez");
     }
-    public void feed(){
 
+    public void feed(){
         System.out.println("Saglıklı beslenir");
     }
-}
+}//Class

@@ -1,6 +1,6 @@
 package day02datatypesmethodcreation;
 
-public class day02Variables02MyTekrar {
+public class MyTekrar_day02Variables02 {
     /*Java da iki tip data type vardır:
     1) primitive data type
         char, booleon, byte, short, int, long, float, double

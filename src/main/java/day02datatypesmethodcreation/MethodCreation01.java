@@ -28,7 +28,12 @@ public class MethodCreation01 {
 
         System.out.println(dikdortgeninCevresi (6,8));
 
-    }
+        int snc= cemberCevre(2,3);
+        System.out.println(snc);
+
+
+    }//main method
+
     // Örnek 1: toplama işlemi yapan bir method oluşturun ve  kullanınız
     public static int toplamaYap(int a, int b){// bu kısımda method kapsamında kullanılmasını ve işlenmesini istediğimiz data ları declare ederiz
         return a+b;
@@ -38,25 +43,31 @@ public class MethodCreation01 {
 
     //Örnek 2: iki sayıyı çarpma işlemi yapan bi method oluşturun ve kullanın.
     protected static long multiply (int a, int b){
-        return a*b;
 
+        return a*b;
     }
 
     // Örnek 3: verilen 3 sayıdan ilk ikisini çarpan ve üçüncü sayı ile sonucu toplayan methodu oluşturun ve kullanın
     private static int firstTwoMultiplyThirdAdd(int a, int b, int c){
-       return a*b+c;
+
+        return a*b+c;
     }
 
     //Homewok
     //1)Dikdörtgenin alanını hesaplayan methodu oluşturun ve kullanın
     public static long dikdortgeninAlani (int a, int b){
+
         return a*b;
     }
 
     //2)Dikdörtgenin çevresini hesaplayan methodu oluşturun ve kullanın
         protected static int dikdortgeninCevresi (int a, int b){
+
         return (a+b)*2;
         }
 
-
-}
+        //cemberin cevresini hesaplayan bir method yaz ve kullan.
+    public static int cemberCevre(int r, int pi){
+       return  2*pi*r;
+    }
+}//class

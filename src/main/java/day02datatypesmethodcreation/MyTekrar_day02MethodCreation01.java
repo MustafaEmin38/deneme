@@ -1,6 +1,6 @@
 package day02datatypesmethodcreation;
 
-public class day02MethodCreation01MyTekrar {
+public class MyTekrar_day02MethodCreation01 {
 
     /*
     JAVADA METHOD NASİL OLUSTURULUR?

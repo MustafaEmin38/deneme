@@ -1,6 +1,6 @@
 package day01variables;
 
-public class day01Variables01MyTekrar {
+public class MyTekrar_day01Variables01 {
     public static void main(String[] args) {
         //primitive data types
        char hayattaUgurluRakamim = '3';

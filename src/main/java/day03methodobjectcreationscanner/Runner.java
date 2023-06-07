@@ -11,10 +11,10 @@ public class Runner {//olusturdugum Car kalibini calıstırmak icin icinde main 
         //"new" keyword u sifirdan yeni bir object olusturmak icin kullanilir.
 
         Car myCar = new Car();
-        System.out.println("myCar.fiyat = " + myCar.fiyat);
         System.out.println("myCar.model = " + myCar.model);
-        myCar.dur();
+        System.out.println("myCar.fiyat = " + myCar.fiyat);
         myCar.hareket();
+        myCar.dur();
 
         CarMyTekrar benimArabam = new CarMyTekrar();
         System.out.println("benimArabam.model = " + benimArabam.model);
@@ -22,22 +22,23 @@ public class Runner {//olusturdugum Car kalibini calıstırmak icin icinde main 
         benimArabam.hareket();
         benimArabam.dur();
 
-        Student aliCan = new Student();
-        System.out.println("aliCan.name = " + aliCan.name);
-        System.out.println("aliCan.grade = " + aliCan.grade);
-        System.out.println("aliCan.adress = " + aliCan.adress);
-        aliCan.study();
-        aliCan.feed();
+       Student myStudent = new Student();
+        System.out.println("myStudent.name = " + myStudent.name);
+        System.out.println("myStudent.grade = " + myStudent.grade);
+        System.out.println("myStudent.adress = " + myStudent.adress);
+        myStudent.study();
+        myStudent.feed();
 
-        StudentMyTekrar aliCem = new StudentMyTekrar();
-        System.out.println("aliCem.name = " + aliCem.name);
-        System.out.println("aliCem.sinif = " + aliCem.sinif);
-        System.out.println("aliCem.adres = " + aliCem.adres);
-        aliCem.study();
-        aliCem.feed();
+    StudentMyTekrar canimOgrencim = new StudentMyTekrar();
+        System.out.println("canimOgrencim.name = " + canimOgrencim.name);
+        System.out.println("canimOgrencim.sinif = " + canimOgrencim.sinif);
+        System.out.println("canimOgrencim.adres = " + canimOgrencim.adres);
+        canimOgrencim.study();
+        canimOgrencim.feed();
 
         //homework
-        //icinde isim ve yas varibale lari ile teach methodu bulunan bir Teacher objecti olusturun ve obje uzerinde bu ozellikleri kullaninin
+        //icinde isim ve yas varibale lari ile teach methodu bulunan bir Teacher objecti olusturun
+        // ve obje uzerinde bu ozellikleri kullaninin
 
         TeacherHomework idealTeacher = new TeacherHomework();
         System.out.println("idealTeacher.name = " + idealTeacher.name);
@@ -48,7 +49,6 @@ public class Runner {//olusturdugum Car kalibini calıstırmak icin icinde main 
         idealTeacher.aliskanlik();
         idealTeacher.teach();
         idealTeacher.travel();
-
 
     }//main.method
 

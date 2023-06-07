@@ -1,0 +1,37 @@
+package day09ifstatements;
+
+public class IfStatements01 {
+
+    public static void main(String[] args) {
+        //Ornek1: Sayi 3 basamakli ise ekrana "Sayi 3 basamaklidir!" yazdirin.
+        //abs () methodu mutlak deger gibidir. neg sayiyi poz yapar. sayi neg gelince bunu kullanip poz yapcaz.
+
+        int number = -123;
+       number = Math.abs(number);
+
+        if (number>99 && number<1000) {
+            System.out.println("Sayi 3 basamaklidir!");
+        }
+
+        //Ornek 2: Bir stringdeki tekrarsiz karakterleri ekrana yazdiriniz (INTERVİEW SORUSUDUR)
+        //abbccdc==> a ve d
+        //tekrarsiz demek ==> index of ve lasIndexOf u birbirine esit olan demek
+
+        String str= "aac";
+        char ch1=str.charAt(0);
+        if(str.indexOf(ch1)==str.lastIndexOf(ch1)){
+            System.out.println(ch1);
+        }
+
+        char ch2=str.charAt(1);
+        if(str.indexOf(ch2)==str.lastIndexOf(ch2)){
+            System.out.println(ch2);
+        }
+
+        char ch3=str.charAt(2);
+        if(str.indexOf(ch3)==str.lastIndexOf(ch3)){
+            System.out.println(ch3);
+        }
+
+    }//main
+}//class
