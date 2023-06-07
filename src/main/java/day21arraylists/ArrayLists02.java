@@ -99,6 +99,6 @@ public class ArrayLists02 {
 
         cities.removeAll(citiesToRemove);
         System.out.println(cities);
-
+// guncelleme
     }
 }
