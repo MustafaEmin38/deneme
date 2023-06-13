@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class NestedLoops02 {
     public static void main(String[] args) {
+         /*              Asagida gordugunuz sekli console'a yazdiran kodu olusturunuz
+                X X X X X
+                X X X X X
+                X X X X X
+    */
 
         Scanner input = new Scanner(System.in);
 

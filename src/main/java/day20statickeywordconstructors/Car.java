@@ -22,10 +22,6 @@ public class Car {
             c) Method lar bir aksiyon yapmak icin olusturulurlar. Constructorlar ise object olusturmak icindir
             d) Method isimleri kucuk harfle baslar, Constructor isimleri class isimleri ile ayni oldugu icin buyuk harfle baslar
          3)Parametreli Constructorlar olusturarak ayni class dan farkli ozelliklere sahip objectler olusturabiliriz
-
-
-
-
          */
 
 

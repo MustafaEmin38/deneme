@@ -54,11 +54,11 @@ public class ArrayLists02 {
 
         //remove() methodu bir elemanin ilk gorunumunu siler
         System.out.println(cities.remove("Miami"));//true(bu methodu direk yazdirinca true verdi.İslem basarili anl gelir)
-        System.out.println(cities);
+        System.out.println(cities);//[Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
 
         //ArrayList te bir eleman index i kullanilarak nasil silinir?
-        System.out.println(cities.remove(2));
-        System.out.println(cities);
+        System.out.println(cities.remove(2));//Barcelona
+        System.out.println(cities);//[Istanbul, Yozgat, Miami, Istanbul, Istanbul, Yozgat]
 
         //remove() methodu index ile kullanilirsa size silmis oldugu datayi return eder
         //remove() methodu eleman ile kullanilirsa size o elemani silip silmedigini ifade eden boolean return eder
@@ -75,17 +75,20 @@ public class ArrayLists02 {
         ages.add(7);
         ages.add(4);
 
+//        ages.remove(12);//java bu 12 yi bu method ta index kabul eder ve hata verir.
+//        System.out.println(ages);
+
         //1 . yol
 //        Integer nonPrimitive =12;
 //        ages.remove(nonPrimitive);
 //        System.out.println(ages);
 
         //2. yol
-        ages.remove((Integer) 12);
+        ages.remove((Integer) 12);//cast yaptık ve bunun primitive degil Wrapper Integer dedik(Autoboxing yaptık)
         System.out.println(ages);
 
         //3. yol
-//        ages.remove(Integer.valueOf(12));
+//        ages.remove(Integer.valueOf(12));//valueOf a int girer Integer cikar
 //        System.out.println(ages);
 
         //4. yol
@@ -99,6 +102,6 @@ public class ArrayLists02 {
 
         cities.removeAll(citiesToRemove);
         System.out.println(cities);
-// guncelleme
+
     }
 }

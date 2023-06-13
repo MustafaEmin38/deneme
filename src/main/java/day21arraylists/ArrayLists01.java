@@ -23,7 +23,7 @@ public class ArrayLists01 {
         ArrayList<Integer> ages = new ArrayList<>();
 
         //ArrayList console a nasil yazdirilir?
-        System.out.println(ages);
+        System.out.println(ages);// []
 
         //Arraylistlere eleman nasil eklenir?
         //Arraylistlere eleman eklemek icin add() methodunu kullaniriz
@@ -34,7 +34,7 @@ public class ArrayLists01 {
         ages.add(1, 656);
         ages.add(3, 777);
         ages.add(888);
-        System.out.println(ages);
+        System.out.println(ages);// [9, 656, 12, 777, 10, 888]
 
         //List e coklu eleman nasil eklenir? veya List e baska bir list nasil eklenir?
         //Bir list' e coklu eleman eklemek icin o elemanlari once bir list'in icine koymalisiniz.
@@ -64,7 +64,7 @@ public class ArrayLists01 {
         //ArrayList te specific bir eleman nasil degisitirilir?
         ages.set(6, 111);
         ages.set(4, 313);
-        System.out.println(ages);
+        System.out.println(ages);// [9, 656, 8, 9, 313, 12, 111, 10, 888, 8, 9, 10]
 
         //Bir List teki tum elemanlari nasil silebilirim?
 //        ages.clear();
@@ -77,7 +77,7 @@ public class ArrayLists01 {
         //Bir ArrayList'in bos olup olmadigini nasil kontrol edebiliriz.
         //isEmpty() methodu Arraylist bos ise true, bos degilse false return eder.
         boolean r2 = ages.isEmpty();
-        System.out.println(r2);
+        System.out.println(r2);// false
 
         //Ornek: Size verilen bir list in bos olup olmadigini kontrol eden kodu yaziniz
         ArrayList<String> names = new ArrayList<>();
