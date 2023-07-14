@@ -38,7 +38,7 @@ public class Arrays02 {
 
         //2. yol for each loop( enhanced loop)
         //baslangic degeri, loop un calisma sarti ve increment/decrement kismini kendisi halleder
-        //fo each loop "Array" lerde ve "collection"larda kullanilir
+        //for each loop "Array" lerde ve "collection"larda kullanilir
 
         /*for each loop kalibi
         for ( DataType w (variableName) : arr/collection ){

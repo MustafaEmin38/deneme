@@ -28,7 +28,7 @@ public class Array02Tekrar {
 
         for (int i = 0; i < computerNames.length; i++) {
 
-            cpuNamesTotal=cpuNamesTotal+computerNames[i].length();
+            cpuNamesTotal+=computerNames[i].length();
 
         }System.out.println(cpuNamesTotal);//26
 

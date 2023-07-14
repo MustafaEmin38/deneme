@@ -10,6 +10,7 @@ public class MethodOverLoading01Tekrar {//int lerde sorulur. asiri yukleme demek
 
         add(3,5);
 
+
     }//main
     public static void add(int a, int b){
         System.out.println(a+b);

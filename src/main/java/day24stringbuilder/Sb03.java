@@ -14,10 +14,10 @@ public class Sb03 {
          yapilan isleri mantikli bir siraya koymak "synchronization" olarak adlandirilir
          StringBuffer "multi-thread" oldugundan ayni zamanda "synchronized"dir
 
-        3 tane String olusturuna class ogrendik;
+        3 tane String olusturan class ogrendik;
                 1) Immutable string lazimsa; String Class
                 2) Mutable string lazimsa StringBuffer veya String Builder
-                        a)StringBufferi multi thread gerekirse kullaniriz(hantal>agzi dolduruyor baffff)
+                        a)StringBufferi multi thread gerekirse kullaniriz(cok ozellikli>hantal>agzi dolduruyor==>baffff)
                         b)StringBuilderi multi thread gerekmez ise kullaniriz
          */
 

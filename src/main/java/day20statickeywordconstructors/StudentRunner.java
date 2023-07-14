@@ -1,7 +1,7 @@
 package day20statickeywordconstructors;
 
 
-public class StdRunner {
+public class StudentRunner {
     public static void main(String[] args) {
         //stdName static oldugundan ona ulasmak icin object olusturmadan sadece
         //class ismini kullanmak yeterlidir

@@ -15,7 +15,7 @@ public class Student {
     public ==> Her class dan kullanilabilir
     protected==> protected olanlar baska package lardan kullanilamaz
                 ancak baska package da child class icinden kullanilabilir
-    default ==> default olanlar baska package lardan kullanilamaz
+    default ==> default olanlar baska package lardan kullanilamaz, sadece bulundugu package dan kull.
     private ==> olanlar sadece olusturulduklari class icinde kullanilabilirler
 
     Note: "protected" ile "default" un farkini soyleyiniz

@@ -30,7 +30,7 @@ public class Sb02 {
         //sonuc 1 ise sb2 sb3 ten alfabetik olarak bir sonra demektir
 
         int r1 = sb2.compareTo(sb3);
-        System.out.println(r1);
+        System.out.println(r1);//2
 
         //StringBuilder nasil string e cevrilir?
         String str =sb2.toString().toUpperCase();

@@ -2,7 +2,7 @@ package day19passbyvaluemethodoverloading;
 
 public class PassByValue01 {
     public static void main(String[] args) {
-        //NOte: Java "pass by value" sayesinde avriable lerin orijinal degerlerini korur.
+        //Note: Java "pass by value" sayesinde variable lerin orijinal degerlerini korur.
         int shirtPrice=100;
 
         //java methoda gonderirken orijinal degeri degil kopyasini gonderir ve degisen deger kopya deger olur
@@ -16,6 +16,7 @@ public class PassByValue01 {
 
         shirtPrice = discount("veteran", shirtPrice);
         System.out.println("shirtprice kampanya "+shirtPrice);
+
 
     }//Main
     //Discount Methodunu olusturalim
